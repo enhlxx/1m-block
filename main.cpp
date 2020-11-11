@@ -15,8 +15,8 @@
 using namespace std;
 
 void usage() {
-    printf("syntax : netfilter-test <host>");
-    printf("sample : netfilter-test test.gilgil.net");
+    printf("syntax : 1m-block <site list file>");
+    printf("sample : 1m-block top-1m.txt");
 }
 
 unsigned long hash_(unsigned char *str) {
