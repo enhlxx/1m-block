@@ -15,8 +15,8 @@
 using namespace std;
 
 void usage() {
-    printf("syntax : 1m-block <site list file>");
-    printf("sample : 1m-block top-1m.txt");
+    printf("syntax : 1m-block <site list file>\n");
+    printf("sample : 1m-block top-1m.txt\n");
 }
 
 unsigned long hash_(unsigned char *str) {
